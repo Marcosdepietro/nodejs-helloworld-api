@@ -2,6 +2,7 @@ pipeline {
     agent any
     tools {
         nodejs '20.13.1'
+        //test
     }
     stages {
         stage('Build') {
