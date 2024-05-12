@@ -54,15 +54,18 @@ ngrok http http://localhost:8080
 -Ir a la URL de Forwarding e iniciar sesión en Jenkins
 
 2. **Configurar el Webhook de Github:**
+
 -En Payload URL escribimos la URL seguido de "github-webhook/"
 -En Content Type seleccionamos ”application/json"
 -En las acciones seleccionamos Pull request y Pushes
 
 3. **Jenkins**
+
 -Instalar el plugin de NodeJs
 -Configurar NodeJS y su respectiva versión en “Tools”
 
 4. **NodeJs**
+
 -Descargar NodeJs con los siguientes comandos (para Linux utilizando NVM): 
  
 ```bash
