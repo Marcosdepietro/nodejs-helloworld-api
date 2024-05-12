@@ -31,6 +31,7 @@ curl http://localhost:3000
 # Desafio 2:
 
 1. **Ngrok**
+
 -Primero se debe instalar ngrok desde https://ngrok.com/  y crear una cuenta 
 
 Desde una instancia en Ubuntu, clonar el repositorio mediante el comando “git clone https://github.com/edgaregonzalez/nodejs-helloworld-api.git” 
@@ -53,7 +54,7 @@ ngrok http http://localhost:8080
 
 -Ir a la URL de Forwarding e iniciar sesión en Jenkins
 
-2. **Configurar el Webhook de Github:**
+2. **Configurar el Webhook de Github**
 
 -En Payload URL escribimos la URL seguido de "github-webhook/"
 -En Content Type seleccionamos ”application/json"
